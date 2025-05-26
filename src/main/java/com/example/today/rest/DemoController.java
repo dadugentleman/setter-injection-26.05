@@ -2,6 +2,7 @@ package com.example.today.rest;
 
 import com.example.today.common.Chef;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +20,7 @@ public class DemoController {
 
     // Constructor
     @Autowired
-    public DemoController(Chef theChef) {
+    public DemoController(@Qualifier("turkishChef") Chef theChef) {
         myChef = theChef;
     }
 
