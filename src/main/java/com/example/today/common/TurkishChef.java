@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class TurkishChef implements Chef {
     @Override
     public String getDailyRecipe() {
-        return "kebacik";
+        return "kebacikkkkk";
     }
     @Override
     public double getSalary() {
