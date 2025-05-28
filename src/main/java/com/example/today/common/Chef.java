@@ -6,4 +6,6 @@ public interface Chef {
 
     String getDailyRecipe();
 
+    double getSalary();
+
 }

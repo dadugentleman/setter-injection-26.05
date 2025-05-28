@@ -9,4 +9,8 @@ public class MexicanChef implements Chef {
     public String getDailyRecipe() {
         return "Taco taco ola amigos";
     }
+    @Override
+    public double getSalary() {
+        return 1200;
+    }
 }

@@ -15,6 +15,11 @@ public class DemoController {
         return myChef.getDailyRecipe();
     }
 
+    @GetMapping("/salary")
+    public double getSalary() {
+        return myChef.getSalary();
+    }
+
     private Chef myChef;
 
 

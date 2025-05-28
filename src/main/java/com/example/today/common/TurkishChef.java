@@ -10,4 +10,8 @@ public class TurkishChef implements Chef {
     public String getDailyRecipe() {
         return "kebacik";
     }
+    @Override
+    public double getSalary() {
+        return 1000;
+    }
 }

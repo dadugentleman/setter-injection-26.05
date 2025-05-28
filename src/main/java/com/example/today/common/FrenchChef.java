@@ -10,4 +10,9 @@ public class FrenchChef implements Chef {
     public String getDailyRecipe() {
         return "Bonjour boqueta coffe crosua";
     }
+
+    @Override
+    public double getSalary() {
+        return 1800;
+    }
 }
